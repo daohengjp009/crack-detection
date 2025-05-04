@@ -1,0 +1,38 @@
+# Cursor Rules for Crack Detection Project
+
+## Project Patterns
+- The project follows a modular structure with clear separation of concerns
+- Python files should include docstrings and type hints
+- Code should be PEP 8 compliant
+
+## Implementation Preferences
+- Prefer PyTorch over TensorFlow for model implementation
+- Use dataclasses for configuration objects
+- Implement proper logging using Python's logging module
+- Write unit tests for critical functionality
+
+## File Organization
+- Data processing scripts go in src/data/
+- Model definitions go in src/models/
+- Utility functions go in src/utils/
+- Training scripts go in src/training/
+- Inference scripts go in src/inference/
+
+## Naming Conventions
+- Use snake_case for variables and functions
+- Use CamelCase for class names
+- Use ALL_CAPS for constants
+- Prefix private methods/variables with underscore
+
+## Documentation Standards
+- All modules, classes, and functions should have docstrings
+- Use Markdown for documentation files
+- Include examples in docstrings for complex functions
+
+## Development Workflow
+- Create modular components that can be tested independently
+- Implement proper error handling and validation
+- Use configuration files for experiment parameters
+- Save model checkpoints during training
+
+This file will be updated as we discover more project-specific patterns and preferences. 
